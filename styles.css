@@ -1,0 +1,67 @@
+body{font-family:Arial;margin:40px;background:#f2f2f2;}h1{color:#333;}
+#search, #categoriaFiltro, #minPreco, #maxPreco {
+  padding: 10px;
+  margin: 10px 5px;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+}
+
+#lista-produtos {
+  padding: 0;
+}
+
+#lista-produtos li {
+  cursor: pointer;
+}
+
+#lista-produtos li:hover {
+  background-color: #e0e0e0;
+}
+
+mark {
+  background: yellow;
+  padding: 0 3px;
+}
+.filtros {
+  background: #ffffff;
+  padding: 16px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  margin-bottom: 20px;
+}
+button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.add-produto {
+  background: #fff;
+  padding: 16px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.add-produto input,
+.add-produto select,
+.add-produto button {
+  padding: 10px;
+  margin: 6px 0;
+  width: 100%;
+}
+
+.add-produto button {
+  background: #333;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.aviso {
+  font-size: 14px;
+  color: #555;
+  margin-top: 10px;
+}

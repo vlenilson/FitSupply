@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FitSupply</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="header">
+    <img src="https://via.placeholder.com/200x80?text=FitSupply" alt="FitSupply logo" id="logo">
+    <h1>FitSupply - Suprimentos de Academia</h1>
+  </header>
+
+  <main class="container">
+
+    <div class="filtros">
+      <input type="text" id="search" placeholder="Pesquisar por nome...">
+
+      <select id="categoriaFiltro">
+        <option value="">Todas as categorias</option>
+        <option value="pesos">Pesos</option>
+        <option value="acessorios">Acessórios</option>
+        <option value="tapis">Tapetes</option>
+      </select>
+
+      <input type="number" id="minPreco" placeholder="Preço mínimo">
+      <input type="number" id="maxPreco" placeholder="Preço máximo">
+    </div>
+
+    <ul id="lista-produtos"></ul>
+
+    <p class="aviso">Catálogo em construção</p>
+
+  </main>
+<div class="add-produto">
+  <h2>Adicionar produto</h2>
+
+  <input type="text" id="nomeProduto" placeholder="Nome do produto">
+  
+  <select id="categoriaProduto">
+    <option value="pesos">Pesos</option>
+    <option value="acessorios">Acessórios</option>
+    <option value="tapis">Tapetes</option>
+  </select>
+
+  <input type="number" id="precoProduto" placeholder="Preço (R$)">
+
+  <button onclick="adicionarProduto()">Adicionar</button>
+</div>
+
+  <script src="scripts.js"></script>
+  <p class="aviso">Digite o nome ou ajuste os filtros para encontrar seu produto 🙂</p>
